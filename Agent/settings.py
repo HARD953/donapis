@@ -87,27 +87,27 @@ WSGI_APPLICATION = 'Agent.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'lanfiadons', 
-        'USER': 'postgres', 
-        'PASSWORD': 'issa01',
-        'HOST': '127.0.0.1', 
-        'PORT': '5432',
-    }
-}
-
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'defqjf6knekbs9', 
-#         'USER': 'synafadtwaixjw', 
-#         'PASSWORD': '27f3ae55c5464c7314871aa2d2a024895b3948eb1b0e63c95445ab563406e87c',
-#         'HOST': 'ec2-52-207-15-147.compute-1.amazonaws.com', 
+#         'NAME': 'lanfiadons', 
+#         'USER': 'postgres', 
+#         'PASSWORD': 'issa01',
+#         'HOST': '127.0.0.1', 
 #         'PORT': '5432',
 #     }
 # }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dfhktceafmkuhn', 
+        'USER': 'aijcoapvslujuv', 
+        'PASSWORD': 'dfd013158ed58dc8f45378344a6d6b25b93c02d7a90ee86951147972fedb9cd8',
+        'HOST': 'ec2-54-86-106-48.compute-1.amazonaws.com', 
+        'PORT': '5432',
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
